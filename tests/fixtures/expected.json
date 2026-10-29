@@ -1,0 +1,71 @@
+{
+  "_comment": "Hand-computed from the seed table in src/api/seed.ts (anchor day 2026-10-29, now = 12:00 IST). See docs/measurement.md.",
+  "anchorDay": "2026-10-29",
+  "now": "2026-10-29T06:30:00.000Z",
+  "kpis": {
+    "total": 26,
+    "valid": 25,
+    "target": 500,
+    "remaining": 475,
+    "percent": 5,
+    "today": 2,
+    "referred": 14,
+    "invalidRef": 1,
+    "rejectedSelf": 1,
+    "suspectedDuplicates": 2,
+    "activeChannels": 6
+  },
+  "daily": [4, 4, 4, 4, 4, 3, 2],
+  "cumulative": [4, 8, 12, 16, 20, 23, 25],
+  "dailyTargets": [40, 55, 65, 75, 85, 90, 90],
+  "observed": {
+    "ambassador_club": 10,
+    "whatsapp": 2,
+    "friend": 5,
+    "instagram": 1,
+    "linkedin": 2,
+    "facebook": 2,
+    "other": 0,
+    "direct": 3
+  },
+  "selfReported": {
+    "ambassador_club": 10,
+    "whatsapp": 4,
+    "friend": 5,
+    "instagram": 2,
+    "linkedin": 2,
+    "facebook": 1,
+    "other": 1,
+    "direct": 0
+  },
+  "disagreements": 2,
+  "colleges": {
+    "Kaveri College of Engineering (fictional)": 6,
+    "Narmada Engineering College (fictional)": 6,
+    "Sahyadri Institute of Technology (fictional)": 5,
+    "Deccan Institute of Engineering (fictional)": 4,
+    "Godavari Technical Institute (fictional)": 4
+  },
+  "codes": {
+    "STU-DEMO01": { "opens": 6, "valid": 3, "conversion": 0.5 },
+    "AMB-KAVERI": { "opens": 10, "valid": 4, "conversion": 0.4 },
+    "CLUB-AIML-NEC": { "opens": 12, "valid": 4, "conversion": 0.3333 },
+    "CLUB-CODERS-DIE": { "opens": 8, "valid": 2, "conversion": 0.25 },
+    "STU-RIYA22": { "opens": 3, "valid": 1, "conversion": 0.3333 }
+  },
+  "topCodesOrder": ["AMB-KAVERI", "CLUB-AIML-NEC", "STU-DEMO01", "CLUB-CODERS-DIE", "STU-RIYA22"],
+  "funnel": { "landing_view": 80, "register_view": 44, "register_success": 26, "ref_link_open": 40 },
+  "day3": {
+    "valid": 12,
+    "channels": { "ambassador_club": 5, "friend": 2, "whatsapp": 2, "instagram": 1, "linkedin": 1 },
+    "topChannel": "ambassador_club",
+    "codes": {
+      "STU-DEMO01": { "opens": 4, "valid": 2 },
+      "AMB-KAVERI": { "opens": 6, "valid": 2 },
+      "CLUB-AIML-NEC": { "opens": 6, "valid": 2 },
+      "CLUB-CODERS-DIE": { "opens": 4, "valid": 1 }
+    },
+    "topCode": "STU-DEMO01"
+  },
+  "budget": { "planned": 2000, "actual": 0, "costPerRegistration": null }
+}
